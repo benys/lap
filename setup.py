@@ -143,7 +143,7 @@ def setup_package():
         except ImportError:
             from distutils.core import setup
     else:
-        from numpy.distutils.core import setup
+        from distutils.core import setup
 
         metadata["configuration"] = configuration
 
